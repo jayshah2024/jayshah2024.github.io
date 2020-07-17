@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JayShah Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                   <a href="https://drive.google.com/file/d/1UswAVjnCQ-SahXfY7dbvT9k6aVCHdjKt/view?usp=sharing" class="btn" target="_blank">Resume</a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Domain</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Tools/Technologies</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Jay Shah</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">A learner and creator</p>
+            <img src="img\img1.jpeg" alt="a picture of Jane Smith smiling" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Web Development/App Development</h3>
+                    <p>Self-taught developer having knowledge and experience in HTML, CSS, Javascript and Bootstrap in domain of Web and Flutter in domain of App Development</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Cloud/Devops/Blockchain</h3>
+                    <p>Having industrial training in field of Hybrid Multi Cloud and having experience in Docker, Kubernetes, Ethereum framework, Jenkins and AWS.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Ml/Dl/Data Science</h3>
+                    <p>A fan and learner of intelligent systems with experience in ML and knowledge in DL and Data Science.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">Tools/Technologies</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">About me</h2>
+           <p class="section__subtitle section__subtitle--about">A curious computer engineering student</p>
+           
+           <div class="about-me__body">
+               <p>A final year undergraduate in the discipline of computer engineering. Developer and researcher having interests in programming, blockchain, cloud computing, DevOps, intelligent systems, and development(web and app).
+               A tech lover who is in process of exploring the technologies in the world, on the path to become a creator.</p>
+           </div>
+           
+           <img src="img/profile.jpg" alt="Jay sitting in garden" class="about-me__img" height="300" width="400">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">Tools/Technologies</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of technologies</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="https://www.docker.com/" class="portfolio__item" target="_blank">
+                    <img src="img\portfolio-01.png" alt="" class="portfolio__img" height="400" width="400">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="https://kubernetes.io/" class="portfolio__item" target="_blank">
+                     <img src="img\pic2.png" alt="" class="portfolio__img" height="400" width="400">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="https://aws.amazon.com/" class="portfolio__item" target="_blank">
+                     <img src="img\pic3.jpg" alt="" class="portfolio__img" height="400" width="400">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="https://flutter.dev/" class="portfolio__item" target="_blank">
+                     <img src="img\pic4.png" alt="" class="portfolio__img" height="400" width="400">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="https://www.djangoproject.com/" class="portfolio__item" target="_blank">
+                     <img src="img\pic5.png" alt="" class="portfolio__img" height="400" width="400">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="https://www.terraform.io/" class="portfolio__item" target="_blank">
+                    <img src="img\pic6.png" alt="" class="portfolio__img" height="400" width="400">
+                </a>
+                
+       
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:hello@jane.dev" class="footer__link" target="_blank">jayshah2024@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/jayshah2024/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+				<li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/jayshah2024" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                
+               
+				<li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/profile.php?id=100021431535930" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+				 <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/i_m_jcs/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
